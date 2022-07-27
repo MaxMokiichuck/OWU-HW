@@ -1,0 +1,50 @@
+.content {
+    display: block;
+    width: auto;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(250, 249, 248);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img.img {    
+    width: 230px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.header {
+    margin: 0px;
+    background-color: rgb(234, 185, 126);
+}
+
+a {
+    color: rgb(1, 14, 15);
+}
+
+.text {
+    background-color: rgb(82, 125, 177);   
+}
+
+.text p {
+    margin-bottom: 0px;
+}
+
+.name {
+    color: black;
+}
+
+ul {
+    margin-bottom: 0px;
+    background-color: rgb(62, 102, 150)
+}
+
+li {
+    text-align: left;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
