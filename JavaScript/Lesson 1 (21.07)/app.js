@@ -51,12 +51,13 @@ console.log(j);
 alert(j);
 document.write(j);
 
-// // - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person (Не об'єкт, просто за допомоги конкатенації)
+// - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person (Не об'єкт, просто за допомоги конкатенації)
 
-let firstName = "Max";
+let firstName = "Maxim";
 let middleName = "Yuriyovich";
 let lastName = "Mokiiychuk";
-console.log(firstName + " " + middleName + " " + lastName);
+let person = `${lastName} ${firstName} ${middleName}`;
+console.log(person);
 
 // // - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
 // //   let a = 100; let b = '100'; let c = true;
@@ -69,4 +70,6 @@ console.log(typeof a1, b1, c1);
 // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками. та вивести в консоль
 
 let name = prompt("What is your name?");
-console.log(name(result));
+let surName = prompt("What is your last name?");
+let age = +prompt("Your age?");
+console.log(firstName, lastName, age);
